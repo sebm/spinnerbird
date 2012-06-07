@@ -8,6 +8,10 @@ img {
   -moz-animation-name: spinnerbird;  
   -moz-animation-iteration-count: infinite;  
   -moz-animation-timing-function: linear;
+  -o-animation-duration: 10s;  
+  -o-animation-name: spinnerbird;  
+  -o-animation-iteration-count: infinite;  
+  -o-animation-timing-function: linear;
   -webkit-animation-duration: 10s;  
   -webkit-animation-name: spinnerbird;  
   -webkit-animation-iteration-count: infinite;  
@@ -21,6 +25,16 @@ img {
 
   to {  
   -webkit-transform: scale(1.0) rotate(360deg);
+  }  
+}
+
+@-o-keyframes spinnerbird {  
+  from {  
+  -o-transform: scale(1.0) rotate(0deg);
+  }  
+
+  to {  
+  -o-transform: scale(1.0) rotate(360deg);
   }  
 }
 
